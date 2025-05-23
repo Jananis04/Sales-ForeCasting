@@ -3,14 +3,13 @@
 
 Data Understanding and Assumptions
 Dataset consists of sales dat with the following columns:
-  InvoiceNo	Invoice number; Unique identifier for a transaction.
-  StockCode	Product (item) code.
-  Description	Product name/description.
-  Quantity	Quantity of product purchased per transaction.
-  InvoiceDate	Date and time of invoice creation.
-  UnitPrice	Price per unit of product.
-  CustomerID	Customer identifier (can be null).
-  Country	Country of customer.
+  InvoiceNo,,StockCode
+  ,Description	
+  ,Quantity
+  ,InvoiceDate
+  ,UnitPrice
+  ,CustomerID
+  ,Country
 
 Modeling Approach
 Model: XGBoost Regressor.
